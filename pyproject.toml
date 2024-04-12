@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml - final"
+version = "0.1.0"
+description = ""
+authors = ["Czarek Golecki <cezary.golecki@o2.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+lightgbm = "^4.3.0"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
