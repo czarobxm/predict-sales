@@ -1,7 +1,18 @@
 import re
 import math
 import random
+import zipfile
+
 import pandas as pd
+
+
+def unzip_data(zip_path):
+    """
+    Unzip data from given path
+    """
+
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
+        zip_ref.extractall()
 
 
 def delete_letters(df, column_name="size"):
