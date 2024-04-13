@@ -6,12 +6,7 @@ You can find evaluation at https://knowledgepit.ml/ds2021second/ in section Fina
 
 This repository consists of 3 jupyter notebook files, zipped datasets and a prediction scores for test set in .txt. You should read jupyter notebooks in the following order:
 
-1. analise_data.ipynb
-  Contains simple data analisys.
-
-2. prep_data.ipynb
-  Data preparation for the modelling
-
-3. prep_models.ipynb 
-  Hyperparameter grid search, feature importance analisys, model selection.
+1. analise_data.ipynb - Contains simple data analisys.
+2. prep_data.ipynb - Data preparation for the modelling
+3. prep_models.ipynb - Hyperparameter grid search, feature importance analisys, model selection.
   
